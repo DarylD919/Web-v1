@@ -12,13 +12,18 @@ html{
     scroll-behavior: smooth;
 }
 
+.max-width{
+    max-width: 1300px;
+    padding: 0 20px;
+    margin: auto;
+}
+
 .main{
     padding: 10px;
 }
 
 .footer{
     text-align: center;
-
     padding: 10px;
 }
 
@@ -66,11 +71,16 @@ h1{
 
 
 .main-content-home{
-    height: 100vh;
     text-align: center;
+    padding: 100px 0;
 }
 
 .main-content-services{
-    padding: 50px 0;
     text-align: center;
+    padding: 100px 0;
+}
+
+.main-content-marketing{
+    text-align: center;
+    padding: 100px 0;
 }
