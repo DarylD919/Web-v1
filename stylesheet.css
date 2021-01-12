@@ -1,0 +1,76 @@
+
+/* layout */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.main{
+    padding: 10px;
+}
+
+.footer{
+    text-align: center;
+
+    padding: 10px;
+}
+
+/* navbar */
+
+.navbar{
+    overflow: hidden;
+    background-color: #3b3b3b;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.navbar a.active{
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 15px 30px;
+    color: #fff;
+    border-left: 1px solid #000000;
+    text-decoration: none;
+}
+
+.navbar a.active:hover{
+    color: #000000;
+    background-color: crimson;
+}
+
+.navbar a.brand{
+    float: left;
+    text-align: center;
+    padding: 5px 50px;
+    font-size: 2rem;
+    color: crimson;
+    text-decoration: none;
+}
+
+/* common */
+
+h1{
+    font-size: 2rem;
+}
+
+/* Pages */
+
+
+.main-content-home{
+    height: 100vh;
+    text-align: center;
+}
+
+.main-content-services{
+    padding: 50px 0;
+    text-align: center;
+}
